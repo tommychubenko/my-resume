@@ -177,11 +177,12 @@ h2 {
 
 @media screen and (max-width: 480px) {
   .footer__title {
-    font-size: 10px;
+    font-size: 13px;
   }
 }
 
 .accent {
+  display: inline-block;
   color: #fff;
   border: 3px #043c52 dotted;
   border-radius: 90px;
