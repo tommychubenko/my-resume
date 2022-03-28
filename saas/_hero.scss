@@ -31,6 +31,14 @@
   border-bottom: 3px $accentColor dotted;
   border-left: 3px $accentColor dotted;
   height: 100%;
+  transition: all $standart-transition-time $standart-transition-style;
+
+  &:hover {
+    border-bottom: 3px $accentColor3 dotted;
+    border-left: 3px $accentColor3 dotted;
+    //
+  }
+
   @media screen and (max-width: $breakpoint480) {
     display: none;
   }
@@ -39,6 +47,10 @@
 .foto-of-me {
   width: 100px;
   display: block;
+  transition: transform $standart-transition-time $standart-transition-style;
+  .introduce__image:hover & {
+    transform: translate(5px, -5px);
+  }
 }
 
 .expirience {

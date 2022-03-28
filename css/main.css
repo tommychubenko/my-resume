@@ -120,6 +120,13 @@ h2 {
   border-bottom: 3px #05648a dotted;
   border-left: 3px #05648a dotted;
   height: 100%;
+  -webkit-transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.introduce__image:hover {
+  border-bottom: 3px #12abe7 dotted;
+  border-left: 3px #12abe7 dotted;
 }
 
 @media screen and (max-width: 480px) {
@@ -131,6 +138,15 @@ h2 {
 .foto-of-me {
   width: 100px;
   display: block;
+  -webkit-transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.introduce__image:hover .foto-of-me {
+  -webkit-transform: translate(5px, -5px);
+          transform: translate(5px, -5px);
 }
 
 .expirience {
