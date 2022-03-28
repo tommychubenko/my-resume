@@ -165,6 +165,15 @@ h2 {
   margin-bottom: 10px;
 }
 
+.adress__link {
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.adress__link:hover {
+  color: #043c52;
+}
+
 .skills__button {
   margin: 5px;
   padding: 3px 5px;
@@ -218,7 +227,7 @@ h2 {
   display: inline-block;
   color: #fff;
   border: 3px #043c52 dotted;
-  border-radius: 90px;
+  border-radius: 10px;
   -webkit-transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
   padding: 3px;
