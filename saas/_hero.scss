@@ -1,18 +1,22 @@
 .main {
   display: flex;
+  @media screen and (max-width: $breakpoint768) {
+    flex-direction: column;
+  }
   // height: 100vw;
 }
 
 .about {
   padding: 20px 0;
-  width: 70%;
+  min-width: 70%;
+  // width: 70%;
 
   background-color: $backgroundColor1;
 }
 
 .info {
   padding: 20px 0;
-  width: 30%;
+  // width: 30%;
   background-color: $backgroundColor2;
 }
 
