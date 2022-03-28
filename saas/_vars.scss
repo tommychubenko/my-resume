@@ -23,6 +23,16 @@ body {
   font-family: "Nunito", sans-serif;
   font-weight: 400;
   font-size: 14px;
+
+  // @media screen and (max-width: $breakpoint1200) {
+  //   width: 1200px;
+  // }
+  // @media screen and (max-width: $breakpoint768) {
+  //   width: 768px;
+  // }
+  // @media screen and (max-width: $breakpoint480) {
+  //   width: 480px;
+  // }
 }
 
 ul {
