@@ -1,0 +1,65 @@
+.main {
+  display: flex;
+  // height: 100vw;
+}
+
+.about {
+  padding: 20px 0;
+  width: 70%;
+
+  background-color: $backgroundColor1;
+}
+
+.info {
+  padding: 20px 0;
+  width: 30%;
+  background-color: $backgroundColor2;
+}
+
+.introduce {
+  border-bottom: 1px solid $mainColor2;
+}
+
+.expirience {
+  border-bottom: 1px solid $mainColor2;
+}
+
+.education {
+  border-bottom: 1px solid $mainColor2;
+}
+
+.certifications {
+  border-bottom: 1px solid $mainColor2;
+}
+
+.adress__list {
+  // margin-bottom: 50px;
+  :nth-child(even) {
+    margin-bottom: 10px;
+  }
+}
+
+.skills__button {
+  margin: 5px;
+  padding: 3px 5px;
+  background-color: $accentColor;
+  color: $whiteColor;
+  border: 3px $accentColor2 dotted;
+  border-radius: 3px;
+  transition: background-color $standart-transition-time
+    $standart-transition-style;
+  &:hover {
+    background-color: $accentColor3;
+  }
+}
+
+.thumb {
+  border-bottom: 1px solid $mainColor2;
+  padding: 20px;
+}
+
+.languages__list {
+  &:not(:last-child) {
+    margin-bottom: 20px;
+  }
+}

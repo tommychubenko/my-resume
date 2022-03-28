@@ -1,0 +1,51 @@
+// Breakpoints
+$breakpoint320: 320px;
+$breakpoint480: 480px;
+$breakpoint768: 768px;
+$breakpoint1200: 1200px;
+
+// Colors
+$mainColor: #212121;
+$mainColor2: #dbcaca;
+$accentColor: #05648a;
+$accentColor2: #043c52;
+$accentColor3: #12abe7;
+$backgroundColor1: #f0f0f0;
+$backgroundColor2: #e9e9e9;
+$whiteColor: #fff;
+
+// Animation
+$standart-transition-time: 250ms;
+$standart-transition-style: cubic-bezier(0.4, 0, 0.2, 1);
+
+body {
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  line-height: 1.2;
+}
+
+a {
+  text-decoration: none;
+  color: $accentColor;
+  font-weight: 700;
+}
+h2 {
+  color: $accentColor;
+}
+
+.container {
+  padding: 0 5px;
+  @media screen and (min-width: $breakpoint480) {
+    padding: 0 15px;
+  }
+}
