@@ -56,7 +56,7 @@ h2 {
 
 .container {
   padding: 0 15px;
-  @media screen and (min-width: $breakpoint480) {
-    padding: 0 15px;
+  margin: 0 auto;
+  @media screen and (min-width: $breakpoint1200) {
   }
 }
