@@ -1,3 +1,24 @@
 .footer {
-  margin: 0;
+  background-color: $accentColor;
+  height: 100px;
+}
+
+.footer__title {
+  padding: 30px 0;
+  color: $mainColor;
+}
+
+.accent {
+  color: $whiteColor;
+  // background-color: $accentColor4;
+  border: 3px $accentColor2 dotted;
+  border-radius: 90px;
+  transition: all $standart-transition-time $standart-transition-style;
+  padding: 5px;
+
+  &:hover {
+    // background-color: $mainColor;
+    background-color: $accentColor3;
+    // font-size: 50px;
+  }
 }

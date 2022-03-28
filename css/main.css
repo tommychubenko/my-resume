@@ -146,11 +146,30 @@ h2 {
   padding: 20px;
 }
 
-.languages__list:not(:last-child) {
-  margin-bottom: 20px;
+.languages__item:not(:last-child) {
+  margin-bottom: 10px;
 }
 
 .footer {
-  margin: 0;
+  background-color: #05648a;
+  height: 100px;
+}
+
+.footer__title {
+  padding: 30px 0;
+  color: #212121;
+}
+
+.accent {
+  color: #fff;
+  border: 3px #043c52 dotted;
+  border-radius: 90px;
+  -webkit-transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 5px;
+}
+
+.accent:hover {
+  background-color: #12abe7;
 }
 /*# sourceMappingURL=main.css.map */
