@@ -21,7 +21,24 @@
 }
 
 .introduce {
+  display: flex;
   border-bottom: 1px solid $mainColor2;
+}
+
+.introduce__image {
+  margin: 5px;
+  padding: 10px;
+  border-bottom: 3px $accentColor dotted;
+  border-left: 3px $accentColor dotted;
+  height: 100%;
+  @media screen and (max-width: $breakpoint480) {
+    display: none;
+  }
+}
+
+.foto-of-me {
+  width: 100px;
+  display: block;
 }
 
 .expirience {
