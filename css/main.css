@@ -18,6 +18,12 @@ a {
   text-decoration: none;
   color: #05648a;
   font-weight: 700;
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+a:hover {
+  color: #043c52;
 }
 
 h2 {
@@ -163,15 +169,6 @@ h2 {
 
 .adress__list :nth-child(even) {
   margin-bottom: 10px;
-}
-
-.adress__link {
-  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.adress__link:hover {
-  color: #043c52;
 }
 
 .skills__button {

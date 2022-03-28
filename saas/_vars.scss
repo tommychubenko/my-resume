@@ -49,6 +49,10 @@ a {
   text-decoration: none;
   color: $accentColor;
   font-weight: 700;
+  transition: color $standart-transition-time $standart-transition-style;
+  &:hover {
+    color: $accentColor2;
+  }
 }
 h2 {
   color: $accentColor;

@@ -72,13 +72,6 @@
   }
 }
 
-.adress__link {
-  transition: color $standart-transition-time $standart-transition-style;
-  &:hover {
-    color: $accentColor2;
-  }
-}
-
 .skills__button {
   margin: 5px;
   padding: 3px 5px;
