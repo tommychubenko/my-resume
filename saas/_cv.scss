@@ -1,0 +1,14 @@
+.cv {
+  margin: 0 auto;
+  padding: 20px 100px;
+  // width: 100%;
+  // min-height: 500px;
+
+  @media screen and (max-width: $breakpoint768) {
+    padding: 20px 50px;
+  }
+
+  @media screen and (max-width: $breakpoint768) {
+    padding: 10px 30px;
+  }
+}

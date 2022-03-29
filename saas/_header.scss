@@ -8,6 +8,18 @@
   font-size: 25px;
   text-transform: uppercase;
 }
+
+.page-title {
+  color: $whiteColor;
+  font-size: 25px;
+  border-bottom: 3px transparent dotted;
+  transition: all $standart-transition-time $standart-transition-style;
+  &:hover {
+    color: $whiteColor;
+    border-bottom: 3px $accentColor2 dotted;
+  }
+}
+
 .header__description {
   color: $whiteColor;
   font-size: 16px;
